@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Build the code using Maven to compile and package the application into a deployable artefact.'
+                echo 'Build the code using Maven to compile the source and package the application into a deployable artefact.'
             }
         }
         stage('Unit and Integration Tests') {
